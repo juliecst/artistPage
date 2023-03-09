@@ -1,3 +1,7 @@
+/* I used the tutorials from Web Dev Simplified ( https://www.youtube.com/watch?v=1PnVor36_40&list=PLZlA0Gpn_vH-cEDOofOujFIknfZZpIk3a&index=7) to get more familiar with css as well as W3schools for html and css*/
+
+
+
 /* for large text*/
 *{
     box-sizing:border-box;
@@ -65,7 +69,7 @@
     font-size: 5em;
     color:#f0ff00;
 }
-
+/*------------ main --------*/
 .container{
     max-width: 900 px;
     padding: 0;
@@ -76,7 +80,6 @@
     background-color: rgb(242, 237, 239);
     background-size: cover;
     background-blend-mode: difference;
-   
 }
 
 .content-section{
@@ -115,7 +118,7 @@
 
 .btn-header{
     margin:5em 15% 2em 15%;
-    color: white;
+    color: rgb(109, 95, 95);
     border: 2px solid #9db8e4e5;
     background-color: rgba(255,255,255,0.1);
     border-radius: 0;
@@ -130,12 +133,13 @@
 }
 
 .btn-primary {
-    color: white;
+    color: rgb(111, 99, 99);
     background-color:aqua;
     border: none;
     border-radius:.3em;
     font-weight: bold;
 }
+
 .btn-play-hover{
     background-color:#13add4; 
 }
